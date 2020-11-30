@@ -41,15 +41,15 @@ function checkDatabase () {
           "Content-Type": "application/json"
         }
       })
-      .then(response => response.json())
+      .then(response => {response.json() })
       .then(() => {
         const transaction = db.transaction(['pending'], 'readWrite');
         const store = transaction.objectStore('pending');
         store.clear();
-      });
+      })
     }
-  };
-}
+  }
+};
 
 function deletePending () {
   const transaction = db.transaction(['pending'], 'readWrite');
