@@ -4,7 +4,7 @@
 ## Description
 An application that allows users to add expenses and deposits to their budget with or without an internet connection. When entering transactions offline, these transactions populate the total when brought back online. When online, the transctions are saved in MongoDB.
 
-## Table of Contents
+## Table of Contents"
 
   - [Repository](#Repository)
   - [Installation](#Installation)
@@ -49,7 +49,7 @@ https://drive.google.com/file/d/1MTSV9RU5Z5q95pHbyAcVvm6LP9d-1yxM/view
 * CSS
 
 ## Future Development
-Continued work on the CSS, 
+Continued work on the CSS, add secure login.
 
 
 ## Contact
